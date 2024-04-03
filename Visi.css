@@ -1,0 +1,84 @@
+.visi-misi {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.visi-misi h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.visi-misi p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.visi-misi ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.visi-misi ul li {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.visi-misi ul li:before {
+    content: "\2022";  /* Bullet character */
+    color: #666;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.top {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    height: 90vh;
+    opacity: 0.9;
+    z-index: -2;
+}
+
+.navigation {
+    background-color: #c77b7b;
+    overflow: hidden;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation ul li {
+    float: left;
+}
+
+.navigation ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    background-color: #1CAAE9;
+}

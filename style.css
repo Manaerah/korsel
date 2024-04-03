@@ -1,0 +1,270 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.top {
+    background-image: url(profil.jpg);
+    background-size: cover;
+    height: 90vh;
+    opacity: 0.9;
+    z-index: -2;
+}
+
+.navigation {
+    background-color: #a87474;
+    overflow: hidden;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation ul li {
+    float: left;
+}
+
+.navigation ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    background-color: #1CAAE9;
+}
+
+@media screen and (max-width: 600px) {
+    .navigation ul li {
+        float: none;
+    }
+}
+
+
+.menu img {
+    float: left;
+    width: 300px;
+    padding-left: 90px;
+}
+
+.bghitam {
+    background:none;
+    height: 90vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+    z-index: -3;
+}
+
+.menu ul {
+    list-style: none;
+    display: inline-flex;
+    float: right;
+    padding-right: 80px;
+    padding-top: 20px;
+}
+
+.menu ul li {
+    padding-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgba(25, 25, 25, 0.708);
+}
+
+.menu ul li a:hover {
+    color: #1CAAE9;
+}
+
+.text {
+    text-align: right;
+    padding-right: 90px;
+    padding-top: 230px;
+    color: white;
+    font-weight: lighter;
+}
+
+.text h1 {
+    font-size: 40px;
+}
+
+.text p {
+    font-size: 15px;
+}
+
+.text span {
+    background: #1cdbe9;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.text span a {
+    text-decoration: none;
+    color: rgb(166, 34, 171);
+    border: 1px solid transparent;
+    padding-top: 20px;
+}
+
+#jurusan {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#jurusan h2,
+#jurusan h3,
+#jurusan p {
+    font-weight: lighter;
+}
+
+#jurusan p {
+    opacity: 70%;
+}
+
+.keahlian img {
+    width: 50px;
+}
+
+.keahlian {
+    padding-top: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+}
+
+.depan {
+    opacity: 0.7;
+    padding-top: 50px;
+}
+
+.depan img {
+    width: 100%;
+    z-index: -3;
+    height: 300px;
+}
+
+.struktur img {
+    width: 100px;
+}
+
+.organisasi {
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 50px;
+}
+
+.organisasi h1 {
+    opacity: 80%;
+}
+
+.organisasi p {
+    opacity: 50%;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.subscribe {
+    background: rgb(16, 95, 230);
+    height: 100px;
+    color: rgb(166, 0, 0);
+    font-weight: lighter;
+    text-align: center;
+    opacity: 0.9;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.subscribe a {
+    border: 1px solid transparent;
+    background: rgb(255, 230, 5);
+    color: rgb(155, 0, 169);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.berita {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.berita p {
+    opacity: 50%;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: auto;
+}
+
+.grid3 p,
+.grid3 h2 {
+    text-align: left;
+}
+
+.grid3 {
+    box-shadow: 0 4px 8px 0 rgb(202, 199, 202), 0 1px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.grid3 a {
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 10px;
+    background: #1CAAE9;
+    border-radius: 50px;
+    color: white;
+}
+
+.grid3 img {
+    border-radius: 4px 4px 0 0;
+}
+
+.kontak {
+    background-image: url(img/bg2.png);
+    height: 80vh;
+    background-size: cover;
+    width: 100%;
+}
+
+.des {
+    width: 20%;
+    padding-left: 120px;
+    color: rgb(37, 234, 90);
+    padding-top: 80px;
+}
+
+.footer {
+    background: rgb(107, 5, 171);
+    color: rgb(189, 198, 195);
+    opacity: 0.9;
+    padding: 20px;
+    padding-left: 120px;
+}
+
+.footer p {
+    opacity: 50%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
